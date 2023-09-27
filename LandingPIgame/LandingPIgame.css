@@ -1,0 +1,80 @@
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: black;
+            color: #fff;
+            text-align: left;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            position: relative; /* Make the container relative for absolute positioning */
+        }
+
+        .image-overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            background: rgba(0, 0, 0, 0.7); /* Semi-transparent background for readability */
+            color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 90%;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        h1 {
+            background-color: black;
+            color: skyblue;
+            padding: 10px;
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .purple-text {
+            color: purple; /* Text color for pink letters */
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        nav a {
+            margin: 0 20px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size: 18px;
+        }
